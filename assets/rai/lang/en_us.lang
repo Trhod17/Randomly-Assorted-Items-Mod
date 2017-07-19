@@ -1,0 +1,27 @@
+item.chain.name=Chain
+item.cooked_flesh.name=Cooked Flesh
+item.salt.name=Salt
+item.seasoned_beef.name=Seasoned Beef
+item.seasoned_pork.name=Seasoned Pork
+item.seasoned_fish.name=Seasoned Fish
+item.seasoned_rabbit.name=Seasoned Rabbit
+item.seasoned_chicken.name=Seasoned Chicken
+item.pepper.name=Pepper
+item.chain_link.name=Chain Link
+item.seasoned_steak.name=Seasoned Steak
+item.cooked_seasoned_pork.name=Cooked Seasoned Pork
+item.cooked_seasoned_fish.name=Cooked Seasoned Fish
+item.cooked_seasoned_rabbit.name=Cooked Seasoned Rabbit
+item.cooked_seasoned_chicken.name=Cooked Seasoned Chicken
+item.cooked_seasoned_mutton.name=Cooked Seasoned Mutton
+item.seasoned_mutton.name=Seasoned Mutton
+item.chain_pickaxe.name=Chain Pickaxe
+item.chain_axe.name=Chain Axe
+item.chain_sword.name=Chain Sword
+item.chain_hoe.name=Chain Hoe
+item.chain_shovel.name=Chain Shovel
+
+itemGroup.raiblocks=RandomlyAssortedBlocks
+itemGroup.raiitems=RandomlyAssortedItems
+
+tile.kitchen_floor.name=Kitchen Floor

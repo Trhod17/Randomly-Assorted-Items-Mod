@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "rai:items/cooked_seasoned_pork"
+     }
+    
+}

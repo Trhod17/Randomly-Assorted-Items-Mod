@@ -1,0 +1,16 @@
+[
+{
+  "modid": "rai",
+  "name": "RandomlyAssortedItems Mod",
+  "description": "Randomly Assorted Items Mod.",
+  "version": "1.0",
+  "mcversion": "1.11.2",
+  "url": "as of yet no website",
+  "updateUrl": "as of yet no updateUrl",
+  "authorList": ["Trhod17 - Coding"],
+  "credits": "Me and my friends",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
