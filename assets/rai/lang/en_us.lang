@@ -7,6 +7,7 @@ item.seasoned_fish.name=Seasoned Fish
 item.seasoned_rabbit.name=Seasoned Rabbit
 item.seasoned_chicken.name=Seasoned Chicken
 item.pepper.name=Pepper
+tile.pepper.name=Pepper
 item.chain_link.name=Chain Link
 item.seasoned_steak.name=Seasoned Steak
 item.cooked_seasoned_pork.name=Cooked Seasoned Pork
@@ -24,4 +25,4 @@ item.chain_shovel.name=Chain Shovel
 itemGroup.raiblocks=RandomlyAssortedBlocks
 itemGroup.raiitems=RandomlyAssortedItems
 
-tile.kitchen_floor.name=Kitchen Floor
+tile.kitchen_floor.name=Kitchen Floor(Creative Only)

@@ -10,22 +10,28 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import trhod17.randomlyassorteditems.RandomlyAssortedItems;
 import trhod17.randomlyassorteditems.Reference;
 import trhod17.randomlyassorteditems.blocks.BlockKitchenFloor;
+import trhod17.randomlyassorteditems.blocks.BlockPepper;
+import trhod17.randomlyassorteditems.blocks.BlockoreBlock;
 import trhod17.randomlyassorteditems.util.Utils;
 
 public class ModBlocks {
 	
 	public static Block kitchen_floor;
+	public static Block pepper;
 
 	public static void init() {
 		kitchen_floor = new BlockKitchenFloor("kitchen_floor", "kitchen_floor");
+		pepper = new BlockPepper("pepper");
 	}
 	
 	public static void register() {
 		registerBlock(kitchen_floor);
+		GameRegistry.register(pepper);
 	}
 	
 	public static void registerRenders() {
 		registerRender(kitchen_floor);
+		registerRender(pepper);
 	}
 	
 	public static void registerBlock(Block block) {

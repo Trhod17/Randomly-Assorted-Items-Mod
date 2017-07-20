@@ -45,9 +45,9 @@ public class RandomlyAssortedItems {
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
+		ModBlocks.init();
 		ModItems.init();
 		ModTools.init();
-		ModBlocks.init();
 		ModItems.register();
 		ModBlocks.register();
 		ModTools.register();

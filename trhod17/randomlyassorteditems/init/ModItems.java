@@ -9,6 +9,8 @@ import trhod17.randomlyassorteditems.RandomlyAssortedItems;
 import trhod17.randomlyassorteditems.Reference;
 import trhod17.randomlyassorteditems.items.ItemChainLink;
 import trhod17.randomlyassorteditems.items.ItemModFood;
+import trhod17.randomlyassorteditems.items.ItemModItems;
+import trhod17.randomlyassorteditems.items.ItemSeasoning;
 import trhod17.randomlyassorteditems.util.Utils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -34,7 +36,18 @@ public class ModItems {
 	  public static Item Cooked_Seasoned_Mutton;
 	  public static Item Cooked_Seasoned_Fish;
 	  public static Item Cooked_Seasoned_Rabbit;
-	
+	  public static Item Seasoned_Beef;
+	  public static Item Seasoned_Chicken;
+	  public static Item Seasoned_Mutton;
+	  public static Item Seasoned_Fish;
+	  public static Item Seasoned_Rabbit;
+	  public static Item Seasoned_Pork;
+	  public static Item Salt;
+	  public static Item pepper;
+	  public static Item Cooked_Flesh;
+	  
+	  
+	  
 	public static void init() {
 		
 		ChainLink = new ItemChainLink("chain_link", "chain_link");
@@ -45,6 +58,16 @@ public class ModItems {
 		Cooked_Seasoned_Mutton = new ItemModFood("cooked_seasoned_mutton",12, 4, false);
 		Cooked_Seasoned_Rabbit = new ItemModFood("cooked_seasoned_rabbit",12, 4, false);
 		Cooked_Seasoned_Fish = new ItemModFood("cooked_seasoned_fish",12, 4, false);
+		Seasoned_Beef = new ItemModFood("seasoned_beef",2, 0, false);
+		Seasoned_Chicken = new ItemModFood("seasoned_chicken",2, 0, false);
+		Seasoned_Mutton = new ItemModFood("seasoned_mutton",2, 0, false);
+		Seasoned_Rabbit = new ItemModFood("seasoned_rabbit",2, 0, false);
+		Seasoned_Fish = new ItemModFood("seasoned_fish",2, 0, false);
+		Seasoned_Pork = new ItemModFood("seasoned_pork",2, 0, false);
+	    Salt = new ItemSeasoning("salt", "salt");
+	    Cooked_Flesh = new ItemModItems("cooked_flesh", "cooked_flesh");
+	    pepper = new ItemSeeds(ModBlocks.pepper, Blocks.field_150458_ak).func_77655_b("pepper").setRegistryName(new ResourceLocation(Reference.MODID, "pepper"));
+	    
 	}
 	
 	public static void register() {
@@ -57,6 +80,17 @@ public class ModItems {
 		registerItem(Cooked_Seasoned_Mutton);
 		registerItem(Cooked_Seasoned_Rabbit);
 		registerItem(Cooked_Seasoned_Fish);
+	    registerItem(Seasoned_Beef);
+	    registerItem(Seasoned_Chicken);
+	    registerItem(Seasoned_Mutton);
+	    registerItem(Seasoned_Rabbit);
+	    registerItem(Seasoned_Fish);
+	    registerItem(Seasoned_Pork);
+	    registerItem(pepper);
+	    registerItem(Salt);
+	    registerItem(Cooked_Flesh);
+	   
+	    
 	}
 	
 	public static void registerRenders() {
@@ -69,6 +103,17 @@ public class ModItems {
 		registerRender(Cooked_Seasoned_Mutton);
 		registerRender(Cooked_Seasoned_Rabbit);
 		registerRender(Cooked_Seasoned_Fish);
+		registerRender(Seasoned_Beef);
+	    registerRender(Seasoned_Chicken);
+	    registerRender(Seasoned_Mutton);
+	    registerRender(Seasoned_Rabbit);
+	    registerRender(Seasoned_Fish);
+	    registerRender(Seasoned_Pork);
+	    registerRender(pepper);
+	    registerRender(Salt);
+		registerRender(Cooked_Flesh);
+		
+	    
 	}
 	
 	public static void registerItem(Item item) {

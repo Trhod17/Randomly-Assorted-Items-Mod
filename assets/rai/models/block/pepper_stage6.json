@@ -1,0 +1,6 @@
+{
+    "parent": "block/crop",
+    "textures": {
+        "crop": "rai:blocks/pepper_stage_6"
+    }
+}
